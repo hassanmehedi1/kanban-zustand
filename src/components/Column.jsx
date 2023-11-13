@@ -22,7 +22,7 @@ export default function Column({ state }) {
   return (
     <div
       className={classNames("column", { drop: drop })}
-      onDragOver={(e) => {
+       onDragOver={(e) => {
         setDrop(true);
         e.preventDefault();
       }}
